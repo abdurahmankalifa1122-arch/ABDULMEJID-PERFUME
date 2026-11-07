@@ -1,0 +1,6 @@
+{
+  "name": "ABDULMEJID PERFUME",
+  "description": "Discover exceptional luxury fragrances at ABDULMEJID PERFUME in Merkato, Addis Ababa. Explore trending luxury scents, curated collections, and direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
