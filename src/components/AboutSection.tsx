@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, MapPin, Phone, MessageCircle } from 'lucide-react';
 import { STORE_CONTACT } from '../data/products';
+import { IMAGES } from '../data/images';
 
 interface AboutSectionProps {
   onContact: () => void;
@@ -18,7 +19,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContact }) => {
               
               <div className="relative rounded-md overflow-hidden shadow-xl border border-[#163C32]/10 aspect-4/3 sm:aspect-1/1">
                 <img
-                  src="/src/assets/images/collection_oriental_oud_1794041605508.jpg"
+                  src={IMAGES.orientalOud}
                   alt="ABDULMEJID PERFUME Boutique in Merkato Addis Ababa"
                   className="w-full h-full object-cover object-center"
                   referrerPolicy="no-referrer"

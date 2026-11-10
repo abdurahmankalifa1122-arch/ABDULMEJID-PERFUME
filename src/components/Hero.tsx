@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Sparkles, MapPin, ShieldCheck, Clock } from 'lucide-react';
+import { IMAGES } from '../data/images';
 
 interface HeroProps {
   onExplore: () => void;
@@ -95,7 +96,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplore, onContact }) => {
               {/* Main Image Container */}
               <div className="relative rounded-md overflow-hidden shadow-2xl bg-[#0e2720] border border-[#C6A66B]/30 aspect-4/3 sm:aspect-16/10 lg:aspect-4/3">
                 <img
-                  src="/src/assets/images/hero_luxury_perfume_1794041587888.jpg"
+                  src={IMAGES.hero}
                   alt="ABDULMEJID PERFUME Luxury Fragrance Showcase"
                   className="w-full h-full object-cover object-center transform hover:scale-103 transition-transform duration-700"
                   referrerPolicy="no-referrer"

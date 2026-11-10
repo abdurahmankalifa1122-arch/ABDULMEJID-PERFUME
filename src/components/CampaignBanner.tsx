@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import { IMAGES } from '../data/images';
 
 interface CampaignBannerProps {
   onDiscoverMore: () => void;
@@ -11,7 +12,7 @@ export const CampaignBanner: React.FC<CampaignBannerProps> = ({ onDiscoverMore }
       {/* Background Image with dramatic lighting and scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/campaign_editorial_scent_1794041588511.jpg"
+          src={IMAGES.campaign}
           alt="ABDULMEJID PERFUME Luxury Campaign"
           className="w-full h-full object-cover object-center filter brightness-90"
           referrerPolicy="no-referrer"

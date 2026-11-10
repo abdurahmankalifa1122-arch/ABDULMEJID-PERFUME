@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowUpRight, Play, Eye } from 'lucide-react';
 import { STORE_CONTACT } from '../data/products';
+import { IMAGES } from '../data/images';
 
 export const TikTokSection: React.FC = () => {
   const tiktokVideos = [
@@ -9,21 +10,21 @@ export const TikTokSection: React.FC = () => {
       title: 'Trending Perfumes at Merkato Store',
       tag: 'Store Walkthrough',
       views: '12.4K',
-      image: '/src/assets/images/hero_luxury_perfume_1794041587888.jpg',
+      image: IMAGES.hero,
     },
     {
       id: 'video-2',
       title: 'Unboxing Lead Storm by Assaf',
       tag: 'New Arrival',
       views: '24.1K',
-      image: '/src/assets/images/product_assaf_lead_storm_1794041590040.jpg',
+      image: IMAGES.leadStorm,
     },
     {
       id: 'video-3',
       title: 'The Sparkle of Diamond Collection',
       tag: 'Customer Favorite',
       views: '18.9K',
-      image: '/src/assets/images/product_diamond_collection_1794041589345.jpg',
+      image: IMAGES.diamondCollection,
     },
   ];
 

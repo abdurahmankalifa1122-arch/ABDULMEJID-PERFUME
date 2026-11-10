@@ -18,6 +18,7 @@ import { Product, FragranceCategory } from './types';
 import { CartItem, calculateTotalCount } from './utils/cart';
 import { Check, MessageCircle } from 'lucide-react';
 import { STORE_CONTACT } from './data/products';
+import { IMAGES } from './data/images';
 
 export default function App() {
   // Shopping Cart state with localStorage persistence
@@ -38,7 +39,7 @@ export default function App() {
           priceETB: 5400,
           size: '100ml / 3.4 fl.oz.',
           bottleSize: '100ml / 3.4 fl.oz.',
-          image: '/src/assets/images/product_assaf_lead_storm_1794041590040.jpg',
+          image: IMAGES.leadStorm,
         },
         quantity: 1,
       },

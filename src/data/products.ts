@@ -1,4 +1,5 @@
 import { Product, CollectionCategory } from '../types';
+import { IMAGES } from './images';
 
 export const STORE_CONTACT = {
   name: 'ABDULMEJID PERFUME',
@@ -17,42 +18,42 @@ export const COLLECTION_CATEGORIES: CollectionCategory[] = [
     id: 'mens',
     title: "Men's Fragrances",
     subtitle: 'Bold woods, smoky leathers, and commanding fresh profiles',
-    image: '/src/assets/images/product_assaf_lead_storm_1794041590040.jpg',
+    image: IMAGES.leadStorm,
     itemCount: 14,
   },
   {
     id: 'womens',
     title: "Women's Fragrances",
     subtitle: 'Luminous florals, radiant amber, and champagne vanillas',
-    image: '/src/assets/images/collection_floral_rose_1794041605339.jpg',
+    image: IMAGES.floralRose,
     itemCount: 18,
   },
   {
     id: 'unisex',
     title: 'Unisex Fragrances',
     subtitle: 'Harmonious blends designed to captivate every aura',
-    image: '/src/assets/images/product_hedonistic_amber_1794041589851.jpg',
+    image: IMAGES.hedonistic,
     itemCount: 16,
   },
   {
     id: 'luxury',
     title: 'Luxury Collections',
     subtitle: 'Niche elixirs and rare oriental extraits de parfum',
-    image: '/src/assets/images/collection_oriental_oud_1794041605508.jpg',
+    image: IMAGES.orientalOud,
     itemCount: 12,
   },
   {
     id: 'trending',
     title: 'Trending Fragrances',
     subtitle: 'The most sought-after perfumes in Addis Ababa this season',
-    image: '/src/assets/images/hero_luxury_perfume_1794041587888.jpg',
+    image: IMAGES.hero,
     itemCount: 9,
   },
   {
     id: 'signature',
     title: 'Signature Scents',
     subtitle: 'Iconic, unforgettable masterworks curated by ABDULMEJID',
-    image: '/src/assets/images/product_diamond_collection_1794041589345.jpg',
+    image: IMAGES.diamondCollection,
     itemCount: 8,
   },
 ];
@@ -69,7 +70,7 @@ export const PRODUCTS: Product[] = [
     stockStatus: 'Available at Merkato Store',
     isSampleData: true,
     sampleDataNotice: 'Sample catalog price (editable). Contact store on WhatsApp for current batch stock & price confirmation.',
-    image: '/src/assets/images/product_diamond_collection_1794041589345.jpg',
+    image: IMAGES.diamondCollection,
     shortDescription: 'A faceted jewel of luminous citrus, white blossoms, and shimmering crystalline musk.',
     fullDescription: 'The Diamond Collection flacon captures the brilliance of pure light. Opening with dazzling bergamot and crisp pear accord, the fragrance unfolds into an opulent bouquet of white jasmine, radiant tuberose, and soft cashmere musk that leaves a trail of refined grandeur.',
     scentProfile: {
@@ -92,7 +93,7 @@ export const PRODUCTS: Product[] = [
     stockStatus: 'In Stock — High Demand',
     isSampleData: true,
     sampleDataNotice: 'Sample catalog price (editable). Contact store on WhatsApp for current batch stock & price confirmation.',
-    image: '/src/assets/images/product_assaf_lead_storm_1794041590040.jpg',
+    image: IMAGES.leadStorm,
     shortDescription: 'A powerful, magnetic composition of smoky cedar, black cardamom, and intense mineral amber.',
     fullDescription: 'Lead Storm by Assaf represents unapologetic presence and distinction. Designed with dark metallic elegance, it strikes the senses with invigorating crushed spice and smoky incense before settling into a warm, commanding base of roasted tonka and dark woods.',
     scentProfile: {
@@ -115,7 +116,7 @@ export const PRODUCTS: Product[] = [
     stockStatus: 'Available at Merkato Store',
     isSampleData: true,
     sampleDataNotice: 'Sample catalog price (editable). Contact store on WhatsApp for current batch stock & price confirmation.',
-    image: '/src/assets/images/product_hedonistic_amber_1794041589851.jpg',
+    image: IMAGES.hedonistic,
     shortDescription: 'An intoxicating symphony of golden honey, dark rum, warm vanilla, and velvet amber.',
     fullDescription: 'Hedonistic is an ode to pure sensory pleasure. The scent radiates warm golden warmth, blending decadent davana and caramelized dried fruits with rich smoky tobacco leaf and sweet bourbon vanilla that lingers effortlessly throughout the night.',
     scentProfile: {
@@ -138,7 +139,7 @@ export const PRODUCTS: Product[] = [
     stockStatus: 'Limited Batch Available',
     isSampleData: true,
     sampleDataNotice: 'Sample catalog price (editable). Contact store on WhatsApp for current batch stock & price confirmation.',
-    image: '/src/assets/images/collection_oriental_oud_1794041605508.jpg',
+    image: IMAGES.orientalOud,
     shortDescription: 'Regal aged Cambodian agarwood kissed with saffron threads and sacred myrrh.',
     fullDescription: 'Crafted for connoisseurs of authentic oriental perfumery, Oud Al-Ghareeb evokes ancient spice routes and regal Arabian courts. Rich smoky oud blends seamlessly with damask rose and warm leathery undertones.',
     scentProfile: {
@@ -161,7 +162,7 @@ export const PRODUCTS: Product[] = [
     stockStatus: 'In Stock',
     isSampleData: true,
     sampleDataNotice: 'Sample catalog price (editable). Contact store on WhatsApp for current batch stock & price confirmation.',
-    image: '/src/assets/images/collection_floral_rose_1794041605339.jpg',
+    image: IMAGES.floralRose,
     shortDescription: 'Sensual May rose infused with sparkling champagne accord and soft vanilla bean.',
     fullDescription: 'An ethereal romantic masterpiece that envelops the wearer in petals of pure silk. Éclat Doré combines delicate French florals with a sparkling gourmand whisper that enchants effortlessly from day to evening.',
     scentProfile: {
@@ -184,7 +185,7 @@ export const PRODUCTS: Product[] = [
     stockStatus: 'Exclusive In-Store Offering',
     isSampleData: true,
     sampleDataNotice: 'Sample catalog price (editable). Contact store on WhatsApp for current batch stock & price confirmation.',
-    image: '/src/assets/images/campaign_editorial_scent_1794041588511.jpg',
+    image: IMAGES.campaign,
     shortDescription: 'Liquid gold essence with warm benzoin, velvety osmanthus, and royal ambergris.',
     fullDescription: 'A pinnacle of artisanal luxury perfumery, Aurélia radiates an aura of celestial gold. Each bottle holds a luminous blend designed to make an indelible impression without uttering a single word.',
     scentProfile: {
