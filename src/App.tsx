@@ -25,7 +25,15 @@ export default function App() {
   const [cartItems, setCartItems] = useState<CartItem[]>(() => {
     try {
       const saved = localStorage.getItem('abdulmejid_cart');
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          const valid = parsed.filter(
+            (item) => item && item.product && item.product.id && typeof item.quantity === 'number'
+          );
+          if (valid.length > 0) return valid;
+        }
+      }
     } catch {
       // fallback
     }
